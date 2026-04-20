@@ -1,38 +1,61 @@
 # TwinsProductionAI
 
-Architecte d'Ora_Core_Os. IA modulaire, gouvernance factuelle, orchestration LLM et runtimes semantiques fiables.
+Public workspace for ORA Core OS, GrenapromptLinked, and verifiable LLM governance.
 
-## A propos
+ORA Core is a modular AI architecture built around factual governance, semantic transport, deterministic runtime layers, and auditable retrieval.
 
-Je construis `Ora_Core_Os`, une architecture modulaire orientee:
-- verification factuelle
-- gouvernance epistemique
-- orchestration LLM
-- runtimes semantiques auditables
-- production de modules techniques publies et reutilisables
+## Start Here
 
-Mon objectif est simple: faire passer les LLMs d'une logique de texte plausible a une logique de systemes fiables, bornes et tracables.
+The link labels below are the target public names. Some repositories may still display older GitHub slugs while the migration is being completed.
 
-## Modules publics
+| Order | Repository | Purpose |
+| ---: | --- | --- |
+| 1 | [ora-core-os](https://github.com/TwinsProductionAI/Coeur_ORA_GrenaPrompt_repo) | Main entry point: ORA Core OS architecture, GPV2 modules, install order, and canonical documentation. |
+| 2 | [ora-core-runtime](https://github.com/TwinsProductionAI/ora-core-runtime) | Runnable bootstrap runtime: GPV2 parsing, GL/GL_G primitives, H-NERONS governance, samples, and tests. |
+| 3 | [ora-core-rag](https://github.com/TwinsProductionAI/ora-core-rag) | Local-first retrieval layer for the ORA canon, audit traces, route gates, and RAG Governor. |
+| 4 | [ora-core-specs](https://github.com/TwinsProductionAI/ora-core-specs) | Public technical specifications, white papers, and integration notes. |
+| 5 | [grenaprompt-linked](https://github.com/TwinsProductionAI/grenapromptlinked-v1) | Language/protocol repository for GrenapromptLinked, GL, GPL, and GL_G semantic transport. |
+| 6 | [ora-core-neroflux](https://github.com/TwinsProductionAI/gpv2-exotique-neroflux) | Cognitive flow-control module: Neroflux routing and Aletheia post-update reflection. |
+| 7 | [ora-core-legacy-whitepaper](https://github.com/TwinsProductionAI/Coeur-ORA-GrenaPrompt) | Historical ORA Core archive for earlier GL-CORE-LOCK white papers and audits. |
 
-- [H-NERONS](https://github.com/TwinsProductionAI/ora-core-specs/tree/main/specs/h-nerons)
-  Gouvernance factuelle pre-emission, qualification des claims, sortie regulee.
-- [ora-core-runtime](https://github.com/TwinsProductionAI/ora-core-runtime)
-  Runtime public des modules techniques Ora_Core_Os.
-- [ora-core-specs](https://github.com/TwinsProductionAI/ora-core-specs)
-  Specifications publiques, white papers et notes d'integration.
-- [grenapromptlinked-v1](https://github.com/TwinsProductionAI/grenapromptlinked-v1)
-  Langage natif GL/GPL et base documentaire associee.
-- [Coeur_ORA_GrenaPrompt_repo](https://github.com/TwinsProductionAI/Coeur_ORA_GrenaPrompt_repo)
-  Documentation publique et architecture GPV2 pour ORA Core et GrenaPrompt.
+## Naming Standard
 
-## Axes de travail
+Public repositories should follow these rules:
 
-- gouvernance factuelle et verification
-- structuration backend GPV2
-- orchestration de modules IA
-- semantics et traces GL / GL_G
-- architecture modulaire pour systemes LLM fiables
+- `ora-core-*` for ORA Core modules, runtimes, specs, and archives.
+- `grenaprompt-*` for the Grenaprompt language and protocol layer.
+- lowercase slugs only.
+- hyphen-separated words.
+- no accents, underscores, `_repo`, or version suffixes in active repository names.
+- version names belong in releases, tags, documents, or branches, not in the repository slug.
+
+## Migration Map
+
+| Current slug | Target slug | Status |
+| --- | --- | --- |
+| `Coeur_ORA_GrenaPrompt_repo` | `ora-core-os` | Rename recommended. |
+| `grenapromptlinked-v1` | `grenaprompt-linked` | Rename recommended. |
+| `gpv2-exotique-neroflux` | `ora-core-neroflux` | Rename recommended. |
+| `Coeur-ORA-GrenaPrompt` | `ora-core-legacy-whitepaper` | Rename/archive recommended. |
+| `ora-core-runtime` | `ora-core-runtime` | Keep. |
+| `ora-core-rag` | `ora-core-rag` | Keep. |
+| `ora-core-specs` | `ora-core-specs` | Keep. |
+| `TwinsProductionAI` | `TwinsProductionAI` | Keep as the profile README repository. |
+
+## Work Axes
+
+- factual governance and pre-emission verification
+- GPV2 backend structure
+- GL / GL_G semantic traces
+- LLM orchestration and runtime boundaries
+- local-first retrieval and auditability
+- modular architecture for reliable LLM systems
+
+## Public/Private Boundary
+
+Public repositories contain architecture, runtime code, specifications, examples, and audit-friendly documentation.
+
+Private material stays out of public repositories: client playbooks, deployment packs, commercial onboarding, brand-sensitive delivery material, and client-specific instructions.
 
 ## Certifications
 
@@ -45,9 +68,8 @@ Mon objectif est simple: faire passer les LLMs d'une logique de texte plausible 
 - Google: AI for Writing and Communicating
 - Google: AI for Content Creation
 - Google: AI for Data Analysis
-- Google AI
 
-## Positionnement
+## Positioning
 
-Je ne construis pas seulement des prompts.
-Je construis des modules, des contrats de verification, des couches de gouvernance et des runtimes utilisables.
+This workspace is not only a prompt collection.
+It publishes modules, verification contracts, governance layers, specifications, and runnable prototypes for auditable AI systems.
