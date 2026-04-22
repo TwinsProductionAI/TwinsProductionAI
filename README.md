@@ -6,17 +6,17 @@ ORA Core is a modular AI architecture built around factual governance, semantic 
 
 ## Start Here
 
-The link labels below are the target public names. Some repositories may still display older GitHub slugs while the migration is being completed.
+The links below use the current public slugs. Older slugs are kept only through GitHub redirects.
 
 | Order | Repository | Purpose |
 | ---: | --- | --- |
-| 1 | [ora-core-os](https://github.com/TwinsProductionAI/Coeur_ORA_GrenaPrompt_repo) | Main entry point: ORA Core OS architecture, GPV2 modules, install order, and canonical documentation. |
+| 1 | [ora-core-os](https://github.com/TwinsProductionAI/ora-core-os) | Main entry point: ORA Core OS architecture, GPV2 modules, install order, and canonical documentation. |
 | 2 | [ora-core-runtime](https://github.com/TwinsProductionAI/ora-core-runtime) | Runnable bootstrap runtime: GPV2 parsing, GL/GL_G primitives, H-NERONS governance, samples, and tests. |
 | 3 | [ora-core-rag](https://github.com/TwinsProductionAI/ora-core-rag) | Local-first retrieval layer for the ORA canon, audit traces, route gates, and RAG Governor. |
 | 4 | [ora-core-specs](https://github.com/TwinsProductionAI/ora-core-specs) | Public technical specifications, white papers, and integration notes. |
-| 5 | [grenaprompt-linked](https://github.com/TwinsProductionAI/grenapromptlinked-v1) | Language/protocol repository for GrenapromptLinked, GL, GPL, and GL_G semantic transport. |
-| 6 | [ora-core-neroflux](https://github.com/TwinsProductionAI/gpv2-exotique-neroflux) | Cognitive flow-control module: Neroflux routing and Aletheia post-update reflection. |
-| 7 | [ora-core-legacy-whitepaper](https://github.com/TwinsProductionAI/Coeur-ORA-GrenaPrompt) | Historical ORA Core archive for earlier GL-CORE-LOCK white papers and audits. |
+| 5 | [grenaprompt-linked](https://github.com/TwinsProductionAI/grenaprompt-linked) | Language/protocol repository for GrenapromptLinked, GL, GPL, and GL_G semantic transport. |
+| 6 | [ora-core-neroflux](https://github.com/TwinsProductionAI/ora-core-neroflux) | Cognitive flow-control module: Neroflux routing and Aletheia post-update reflection. |
+| 7 | [ora-core-legacy-whitepaper](https://github.com/TwinsProductionAI/ora-core-legacy-whitepaper) | Historical ORA Core archive for earlier GL-CORE-LOCK white papers and audits. |
 
 ## Naming Standard
 
@@ -31,12 +31,12 @@ Public repositories should follow these rules:
 
 ## Migration Map
 
-| Current slug | Target slug | Status |
+| Previous slug | Current slug | Status |
 | --- | --- | --- |
-| `Coeur_ORA_GrenaPrompt_repo` | `ora-core-os` | Rename recommended. |
-| `grenapromptlinked-v1` | `grenaprompt-linked` | Rename recommended. |
-| `gpv2-exotique-neroflux` | `ora-core-neroflux` | Rename recommended. |
-| `Coeur-ORA-GrenaPrompt` | `ora-core-legacy-whitepaper` | Rename/archive recommended. |
+| `Coeur_ORA_GrenaPrompt_repo` | `ora-core-os` | Completed 2026-04-22. |
+| `grenapromptlinked-v1` | `grenaprompt-linked` | Completed 2026-04-22. |
+| `gpv2-exotique-neroflux` | `ora-core-neroflux` | Completed 2026-04-22. |
+| `Coeur-ORA-GrenaPrompt` | `ora-core-legacy-whitepaper` | Renamed 2026-04-22; archive decision still pending. |
 | `ora-core-runtime` | `ora-core-runtime` | Keep. |
 | `ora-core-rag` | `ora-core-rag` | Keep. |
 | `ora-core-specs` | `ora-core-specs` | Keep. |
