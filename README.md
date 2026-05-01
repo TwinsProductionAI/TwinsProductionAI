@@ -18,6 +18,11 @@ The links below use the current public slugs. Older slugs are kept only through 
 | 6 | [ora-core-neroflux](https://github.com/TwinsProductionAI/ora-core-neroflux) | Cognitive flow-control module: Neroflux routing and Aletheia post-update reflection. |
 | 7 | [ora-core-legacy-whitepaper](https://github.com/TwinsProductionAI/ora-core-legacy-whitepaper) | Historical ORA Core archive for earlier GL-CORE-LOCK white papers and audits. |
 
+## Ecosystem White Paper
+
+- [TwinsProductionAI / ORA Ecosystem White Paper](docs/TWINS_PRODUCTION_AI_ORA_Ecosystem_WhitePaper.md)  
+  Public overview of the ORA repository map, architecture layers, public/private boundary, and ecosystem roadmap.
+
 ## Naming Standard
 
 Public repositories should follow these rules:
