@@ -4,6 +4,20 @@ Public workspace for ORA Core OS, GrenapromptLinked, and verifiable LLM governan
 
 ORA Core is a modular AI architecture built around factual governance, semantic transport, deterministic runtime layers, and auditable retrieval.
 
+## ORA Core Hub — official platform / plateforme officielle
+
+**Twins Productions IA** (GitHub: TwinsProductionAI) develops the ORA ecosystem.
+
+- **ORA Core OS** — modular architecture and governance specifications for existing language models.
+- **ORA Core Hub** — training and tools for structured instructions, reusable AI workflows and governance. Official platform: [oracorehub.com](https://oracorehub.com/).
+- **ORA Knowledge Gateway** — public, read-only documentation and evidence resources, accessible without an account or JavaScript: [knowledge.oracorehub.com](https://knowledge.oracorehub.com/).
+  - [Full public corpus / Connaissance](https://knowledge.oracorehub.com/connaissance/)
+  - [Machine-readable resource index](https://knowledge.oracorehub.com/llms.txt)
+  - [Evidence registry (JSON)](https://knowledge.oracorehub.com/connaissance/evidence.json)
+  - [Public GitHub mirror](https://github.com/TwinsProductionAI/ora-core-os/tree/main/knowledge)
+
+The public documentation distinguishes published specifications, internal qualifications, reported user experiences and independently validated performance. Publication alone does not establish performance gains. Private and premium resources remain outside this public corpus.
+
 ## Public Repository Map
 
 | Layer | Repository | Public role |
