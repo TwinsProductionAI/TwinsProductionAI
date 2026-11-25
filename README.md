@@ -18,6 +18,20 @@ ORA Core is a modular AI architecture built around factual governance, semantic 
 
 The public documentation distinguishes published specifications, internal qualifications, reported user experiences and independently validated performance. Publication alone does not establish performance gains. Private and premium resources remain outside this public corpus.
 
+## ORA Open Lab — Machine First
+
+Public experimental protocol v0.3.0 for comparing four prompt conditions on two fictitious tasks (eight prompts). No comparative results have been published. Execution requires isolated sessions or an external orchestrator; reading the protocol is not an experiment.
+
+- [Open Lab — public experimental documentation](https://knowledge.oracorehub.com/open-lab/)
+- [Machine-readable protocol JSON](https://knowledge.oracorehub.com/open-lab/protocol.json)
+- [Manifest and SHA-256](https://knowledge.oracorehub.com/open-lab/manifest.json)
+- [Independent review and result receipt schema](https://knowledge.oracorehub.com/open-lab/receipt.schema.json)
+- [Alternative Render origin](https://ora-knowledge-gateway.onrender.com/open-lab/)
+- [Public implementation, fixtures and protocol generator (release commit)](https://github.com/TwinsProductionAI/ora-core-os/blob/04f2ea29ad7742c10b4892bf537a7cc430b6a284/knowledge/open-lab.cjs)
+- [External HTTP and build validation](https://github.com/TwinsProductionAI/ora-core-os/actions/runs/45518612882)
+
+Availability over HTTPS does not guarantee discovery, indexing, or retrieval by every LLM product. A failed retrieval in one environment is not evidence of global unavailability.
+
 ## Public Repository Map
 
 | Layer | Repository | Public role |
